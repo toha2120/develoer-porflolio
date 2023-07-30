@@ -54,8 +54,46 @@ p{
 .div-2{
 
 }
-img{
+.banner-ph{
     width: 600px;
     height: 600px;
     
+}
+.section-1{
+    display: flex;
+    /* background: linear-gradient( #EF284E, #11086B); */
+    margin-top: 70px;
+}
+.div-3{
+    background-color: #f0e9ee;
+    height: 620px;
+}
+.div-3 img{
+    width: 100vh;
+    height: 620px;
+}
+.header-text{
+    margin-left: 10px;
+    background-color: #f0e9ee;
+    padding: 10px;
+    text-align: left;
+}
+.header-text h1 {
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+.header-text p {
+    margin-left: 20px;
+    margin-top: 0;
+}
+.experiences{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    
+}
+.expericences-1{
+    background-color: #f0ecec;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgb(133, 130, 133);
 }
